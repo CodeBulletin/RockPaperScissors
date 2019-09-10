@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:Lora, sans-serif;
+  transition: all 1s ease;
+}
+
+body {
+  background: #121212;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background: #bfbbbb;
+  font-size: 50px;
+  padding: 20px;
+  text-align: center;
+}
+
+.ScoreBoard {
+  border-radius: 10px;
+  width: 180px;
+  margin: 20px auto;
+  padding: 15px;
+  background: #bfbbbb;
+  text-align: center;
+  border: white solid 3px;
+  font-size: 40px;
+  position: relative;
+}
+
+.Badge {
+  padding: 5px 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  background: red;
+}
+
+#user {
+  position: absolute;
+  top: 25px;
+  left : -30px;
+}
+#comp {
+  position: absolute;
+  top: 25px;
+  right : -35px;
+}
+
+.Message1 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+}
+
+.images {
+  text-align: center;
+}
+
+.image {
+  display: inline-block;
+  border: white solid 3px;
+  border-radius: 50%;
+  padding: 20px 20px;
+  margin: 30px;
+  margin-top:40px;
+  transition: all 0.3s ease;
+}
+
+.image:hover {
+  cursor: pointer;
+  background: #0c0d0d;
+}
+
+.Message2 {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+
+.endbutton {
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  background: #bfbbbb;
+  font-size: 30px;
+  padding: 10px;
+  margin: 40px 10px;
+  border: white solid 0px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: #6e7373;
+}
+
+.green-glow {
+  border: #0ee812 solid 4px;
+  box-shadow: 0 0 10px #08850a;
+}
+
+.red-glow {
+  border: #e30e0e solid 4px;
+  box-shadow: 0 0 10px #8a0707;
+}
+
+.gray-glow {
+  border: #545454 solid 4px;
+  box-shadow: 0 0 10px #211e1e;
+}
